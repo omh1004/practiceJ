@@ -24,7 +24,7 @@ public class mj_10818 {
 
     Arrays.sort(num);
 
-    System.out.println(num[0] + " " + num[n - 1]);
+    System.out.println(num[0] + " " + num[n - 1]+"!!!!!!!!");
 
 
   }

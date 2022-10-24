@@ -1,23 +1,21 @@
 package com.company;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.util.Scanner;
+public class Main {
 
-public class Main2 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
 
-    public static void main(String[] args) throws Exception {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine() , " ");
+        int A = in.nextInt();
+        int B = in.nextInt();
 
+        in.close();
 
-        while(st.hasMoreTokens()){
-            int temp = Integer.parseInt(st.nextToken());
-
-        }
-
-
-
+        if(A>B) System.out.println(">");
+        else if(A<B) System.out.println("<");
+        else System.out.println("==");
 
     }
+
 }
+

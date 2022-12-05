@@ -22,3 +22,4 @@ public class pj_1712_1 {
 
 	}
 }
+c
